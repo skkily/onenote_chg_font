@@ -11,6 +11,7 @@ change_msyh()
 		echo "cp ${msyh_files[i]} to ${calibril_files[i]}"
 		cp ${msyh_files[i]} ${calibril_files[i]}
 	done
+ 	return 0
 }
 
 rename_calibri()
@@ -21,6 +22,7 @@ rename_calibri()
 			mv ${i} ${i}.save
 		}
 	done
+ 	return 0
 }
 
 restore_calibri()
@@ -30,6 +32,7 @@ restore_calibri()
 		echo "mv ${i} to ${target_name}"
 		mv ${i} ${target_name}
 	done
+ 	return 0
 }
 
 cd /Applications/Microsoft\ OneNote.app/Contents/Resources/DFonts
