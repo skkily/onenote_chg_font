@@ -9,13 +9,13 @@ OneNote for mac 解决Calibri英文字体自动切换,排版难看问题
 
 # 使用方法
 
-* 执行 `wget -qO- https://raw.githubusercontent.com/skkily/onenote_chg_font/refs/heads/main/onenote_chg_font.sh | sudo bash`, 最后一句打印 change ok 即成功执行
+* 执行 `wget -qO- https://raw.githubusercontent.com/skkily/onenote_chg_font/refs/heads/main/onenote_chg_font.sh | sudo bash`, 输入密码, 最后一句打印 change ok 即成功执行
 
 * 完全退出 onenote 再打开即可.
 
 # 恢复方法
 
-* 执行 `wget -qO- https://raw.githubusercontent.com/skkily/onenote_chg_font/refs/heads/main/onenote_chg_font.sh | sudo bash -s -- restore`, 最后一句打印 restore ok 即成功执行
+* 执行 `wget -qO- https://raw.githubusercontent.com/skkily/onenote_chg_font/refs/heads/main/onenote_chg_font.sh | sudo bash -s -- restore`, 输入密码, 最后一句打印 restore ok 即成功执行
 
 * 完全退出 onenote 再打开即可.
 
